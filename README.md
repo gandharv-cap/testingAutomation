@@ -42,6 +42,7 @@ also
 create var/log/capillary/tunnelManager and var/log/capillary/pyapps
 
 comment respective line in `tunnelManager.py` and add :
+
 `self.exeString = 'sshpass -p "<YOUR LDAP PASSWORD>" ssh -L '+str(localPort)+':'+str(values['ip'])+':'+str(values['remotePort'])+' <YOUR LDAP USERNAME>@'+Constants.jumpBox[values['cluster']]`
 
 run startTunnel.sh inside tunnelManager
