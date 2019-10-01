@@ -28,6 +28,8 @@ python2 -m pip install mysqlclient
 
 ```
 python2 -m pip install flask
+python2 -m pip install nose
+python2 -m pip install tornado
 python2 -m pip install psutil
 python2 -m pip install pycrypto
 python2 -m pip install pytest
