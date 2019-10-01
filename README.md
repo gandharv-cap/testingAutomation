@@ -14,9 +14,21 @@ after installing pip
 run :
 
 ```
+python2 -m pip install mysqlclient
+```
+
+if facing error in above, use:
+```
+brew install mysql-client
+echo 'export PATH="/usr/local/opt/mysql-client/bin:$PATH"' >> ~/.bash_profile
+source ~/.bash_profile
+python2 -m pip install mysqlclient
+```
+
+
+```
 python2 -m pip install flask
 python2 -m pip install psutil
-python2 -m pip install mysqlclient
 python2 -m pip install pycrypto
 python2 -m pip install pytest
 python2 -m pip install requests
