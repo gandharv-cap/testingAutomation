@@ -45,6 +45,7 @@ python2 -m pip install boto3
 python2 -m pip install pytest-html
 python2 -m pip install pytest_ordering
 python2 -m pip install lxml
+python2 -m pip install pytest --ignore-installed six
 ```
 
 also 
